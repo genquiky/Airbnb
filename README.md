@@ -1,1 +1,2 @@
-School of Code project
+School of Code project:
+Replicating the landing page of Airbnb mobile version
