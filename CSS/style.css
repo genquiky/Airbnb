@@ -1,4 +1,29 @@
-body{
-	font-family: Cambria;
+@font-face { 
+	font-family: Circular; 
+	src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),
+		url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+body{	
 	background-color: white;
+}
+#mag {
+	float: left;
+}
+#filter {
+	float: right;
+}
+
+img.magimage{
+width: 40px;
+float:left;
+margin-right: 10px;
+}
+
+img.filterimage{
+width: 40px;
+float:right;
+margin-right: 10px;
 }
