@@ -1,29 +1,41 @@
-@font-face { 
-	font-family: Circular; 
-	src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),
-		url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
-	font-style: normal;
-	font-weight: normal;	
-}
 
-body{	
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: white;
+	color: black;	
 }
-#mag {
+.content {
+	height: auto;
+	width: 375px;
+	padding: 10px 40px 0px 40px;
+}
+
+.content1 {
+	background: #000000;
+	border-width: 0px;
+	color: white;
+	height: 50px;
+	padding: 10px 0px 10px 0px;
+}
+
+span.where {
+	font-size: 13px;
+	font-weight: bold;
+
+}
+span.under-where {
+	font-size: 13px;	
+} 
+
+img.mag {
 	float: left;
+	width: 40px;
+	
 }
-#filter {
+
+img.filter {
 	float: right;
+	width: 60px;
+	padding: 0px 4px 0px 0px;
 }
 
-img.magimage{
-width: 40px;
-float:left;
-margin-right: 10px;
-}
-
-img.filterimage{
-width: 40px;
-float:right;
-margin-right: 10px;
-}
